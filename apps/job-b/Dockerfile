@@ -15,4 +15,4 @@ ENV PYTHONPATH=/app/lib:$PYTHONPATH
 ENV DATA_PATH=/app/static_data/enron_emails_1702.csv
 
 # Run the job
-CMD ["python", "app.py"]
+CMD [".local/bin/python", "app.py"]
