@@ -4,10 +4,10 @@ FROM python-base
 RUN uv pip install fastapi uvicorn
 
 # Copy application code
-COPY app.py .
+COPY apps/server-two/app.py .
 
 # Copy static data
-COPY ../../static_data/ /app/static_data/
+COPY static_data/ /app/static_data/
 
 # Expose port
 EXPOSE 8080
