@@ -14,4 +14,4 @@ ENV PYTHONPATH=/app/lib:$PYTHONPATH
 ENV DATA_PATH=/app/static_data/LD2011_2014.csv
 
 # Run the job
-CMD ["python", "app.py"]
+CMD [".local/bin/python", "app.py"]
