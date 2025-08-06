@@ -1,0 +1,5 @@
+static_data/*.csv
+output.csv
+build
+__pycache__
+.venv
